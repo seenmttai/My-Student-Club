@@ -135,48 +135,6 @@ h1, h2, h3, h4 {
   gap: 1rem;
 }
 
-.login-btn, .signup-btn {
-  padding: 0.5rem 1.2rem;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 0.9rem;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: none;
-  cursor: pointer;
-}
-
-.login-btn {
-  background: transparent;
-  color: var(--text-primary);
-  border: 1.5px solid var(--text-primary);
-}
-
-.signup-btn {
-  background: transparent;
-  color: var(--text-primary);
-  border: 1.5px solid var(--text-primary);
-}
-
-.login-btn:hover, .signup-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.signup-btn:hover {
-  box-shadow: 0 4px 12px rgba(255, 0, 128, 0.2);
-}
-
-.signup-link {
-  color: white !important;
-  background: var(--gradient-hot);
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-}
-
-.signup-link::after {
-  display: none;
-}
-
 .mobile-menu-btn {
   display: none;
   background: transparent;
@@ -206,10 +164,6 @@ h1, h2, h3, h4 {
   .auth-buttons {
     display: flex;
     gap: 0.5rem;
-  }
-
-  .login-btn, .signup-btn {
-    display: none;
   }
 
   .auth-buttons::before {
@@ -306,9 +260,6 @@ h1, h2, h3, h4 {
     text-align: right;
   }
 
-  .signup-link {
-    width: auto;
-  }
 }
 
 @media (max-width: 480px) {
