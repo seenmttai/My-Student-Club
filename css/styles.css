@@ -977,6 +977,53 @@ footer {
       font-size: .8rem;
       padding: .5rem .8rem;
   }
+
+  .hero {
+    padding: 2rem 1rem; /* Further reduce padding */
+    min-height: auto; /* Allow hero to shrink vertically */
+
+  }
+  .hero-content {
+    text-align: center; /* Center content */
+  }
+
+  .hero-title {
+    font-size: 2.2rem; /* Smaller title */
+  }
+
+  .hero-description {
+    font-size: 1rem; /* Smaller description */
+  }
+
+  .hero-cta {
+    flex-direction: column; /* Stack CTA buttons */
+    align-items: center; /* Center align buttons */
+    gap: 1rem;
+
+  }
+  .hero-stats {
+      display: none;
+  }
+
+  .primary-cta {
+    width: 100%; 
+    justify-content: center; 
+  }
+
+  footer {
+    padding: 2rem 1rem; 
+  }
+  .footer-content {
+    grid-template-columns: 1fr; 
+    gap: 1.5rem;
+  }
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+  .footer .social-links {
+    justify-content: center; 
+  }
+
 }
 
 
@@ -1029,6 +1076,28 @@ footer {
 
   .pricing-section {
     padding: 4rem 1rem;
+  }
+
+  footer {
+    padding: 4rem 1rem; 
+  }
+  .footer-content {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    grid-template-columns: 1fr; 
+  }
+
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+
+  .footer .social-links {
+    justify-content: center;
   }
 }
 
