@@ -152,8 +152,9 @@ h1, h2, h3, h4 {
 }
 
 .signup-btn {
-  background: var(--gradient-hot);
-  color: white;
+  background: transparent;
+  color: var(--text-primary);
+  border: 1.5px solid var(--text-primary);
 }
 
 .login-btn:hover, .signup-btn:hover {
