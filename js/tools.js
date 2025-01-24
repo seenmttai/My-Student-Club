@@ -23,7 +23,7 @@ export function initializeTools() {
       id: 'salary',
       title: 'Salary Estimator',
       description: 'Get accurate salary predictions based on your skills and experience',
-      icon: 'https://assets5.lottiefiles.com/packages/lf20_5ngs2ksb.json',
+      icon: 'https://lottie.host/bb70d4e0-38bc-413a-9cd4-e3ff9b6bc433/GPRgZHd04y.lottie',
       premium: true,
     }
   ];
