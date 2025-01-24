@@ -10,7 +10,7 @@ export function initializeTools() {
       id: 'resume',
       title: 'Resume Scorer',
       description: 'Get your resume analyzed by AI with industry-specific recommendations',
-      icon: 'https://assets8.lottiefiles.com/packages/lf20_5ngs2ksb.json',
+      icon: 'https://lottie.host/14a71abf-0803-4ecc-804f-c1f4d010691a/dPKlpMre5x.json',
       premium: true,
     },
     {
