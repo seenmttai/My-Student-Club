@@ -956,6 +956,30 @@ footer {
   line-height: 1.6;
 }
 
+@media (max-width: 362px) {
+  .tools-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem; 
+  }
+
+  .tool-card {
+    padding: 1rem; 
+  }
+
+  .tool-card h3 {
+    font-size: 1.4rem; 
+  }
+
+  .tool-card p {
+    font-size: 0.9rem; 
+  }
+  .view-tool-btn {
+      font-size: .8rem;
+      padding: .5rem .8rem;
+  }
+}
+
+
 @media (max-width: 1024px) {
   .pricing-grid {
     gap: 1.5rem;
